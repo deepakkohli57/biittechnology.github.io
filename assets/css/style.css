@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*h1,h5{
+    font-family: 'Raleway', sans-serif; 
+}
+* p{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Preload*/
+#loading{
+    width:100%;
+    height: 100vh;
+    background: #fff url('../images/giit.gif') no-repeat center;
+    position: fixed;
+    z-index: 999999;
+}
+
+/* Navigation */
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index: 10;
+    background-color: #f8f8f8;
+}
+
+.carousel-inner h5{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 300!important; 
+}
+.nav-item a:hover{
+color:#22a6b3 !important;
+font-weight: 600;
+font-size: 16px;
+}
+
+/* slider-section */
+#slider{
+    width:100%;
+}
+
+.carousel-caption {
+    top:50%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+
+.carousel-caption h5{
+font-size: 3rem;
+font-family: 'Roboto', sans-serif;
+color: #fff;
+}
+
+/* about-section */
+
+#about-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.progress{
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.progress-bar{
+    border-radius: 16px;
+}
+
+/* services-section */
+#services{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/banner2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+    color: #fff;
+}
+
+#services h1 {
+    color: #fff !important;
+    text-align: center;
+
+}
+
+#services h1::after{
+    content: "";
+    background: #fff;
+    width: 170px;
+    height: 3px;
+    display: block;
+    margin: 20px auto 5px;
+}
+
+.services{
+    margin-top: 40px;
+}
+
+.icons span{
+    font-size: 42px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px auto;
+    width: 86px;
+    height: 86px;
+}
+
+.icons p{
+    text-align: center;
+}
+.card{
+    transition: all ease-in-out 0.5s;
+}
+.card:hover{
+    border: 1px solid #007aff;
+       box-shadow: 4px 2px 14px 0 rgba(0, 123, 255,0.5)!important; 
+       
+}
+
+#our-team h1::after{
+    content: "";
+    background: #000;
+    width: 170px;
+    height: 3px;
+    display: block;
+    margin: 20px auto 5px; 
+}
+
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/banner2.jpg);
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#price{
+    background-color:#f8f8f8;
+}
+#price h1::after{
+    content:"";
+    background-color: #000;
+    width:170px;
+    height: 3px;
+    display:block;
+    margin:20px auto 5px;
+}
+
+* li{
+    list-style: none;
+}
+
+#testimonial h1::after{
+    content:"";
+    background-color: #007aff;
+    margin: 15px auto 20px;
+    width: 170px;
+    height: 3px;
+    display: block;
+}
+
+.profile h5{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+} 
+
+
+.profile{
+    background-color: #efefef;
+    padding: 113px 10px 10px;
+    position: relative;
+    color: #888;
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+    transition: all ease-in-out 0.5s;
+    
+}
+
+
+
+.profile img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    top: -20px;
+    left: calc(50% - 60px);
+    transition: all ease-in-out 2s;
+   
+}
+
+.profile img:hover{
+    border-color: #007aff;
+    transform: rotate(360deg);
+   
+}
+
+.profile:hover{
+    background-color: #007aff;
+    color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+.profile h5{
+    font-style: normal;
+    font-weight: 500;
+    color: #007aff;
+}
+
+/* get-in-touch */
+#get-in-touch{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #efefef;
+    color:#777;
+}
+#get-in-touch h1::after{
+    background-color: #007aff;
+    width: 170px;
+    height: 3px;
+    display: block;
+    margin: 15px auto 20px;
+    content:"";
+}
+
+
+
+.contact-form{
+    padding: 15px;
+}
+
+.form-control:hover{
+border-color: #007bff!important;
+}
+
+.information{
+    padding: 15px;
+    line-height: 28px;
+}
+
+.information .fa{
+    margin: 10px!important;
+}
+
+.information a{
+    margin-left: 0px;
+}
+.information p{
+    margin-left: 51px;
+    line-height: 33px;
+}
+
+.social{
+  
+    width: 302px;
+    height: 72px;
+    max-width: 100%;
+    display: flex;
+    margin-left: 32px; 
+}
+
+.social a:hover{
+text-decoration: none;
+color: #007aff;
+border-color: #007aff;
+}
